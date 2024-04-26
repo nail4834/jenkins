@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker { image 'node:16-alpine' }
+    docker { image 'nail4834/hello-world-python:0.0.9.RELEASE' }
   }
   stages {
     stage('Test') {
